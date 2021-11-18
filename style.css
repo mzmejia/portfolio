@@ -7,14 +7,134 @@ Blue: #056fc6
 
 */
 
+/*----------Body----------*/
+body {
+  background: #f1f2f2;
+}
+
+#footerContainer {
+  width: 100%;
+  background: #353535;
+}
+
+/*----------Nav----------*/
+#overrideNav {
+  color: #353535;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  background: #f1f2f2;
+  box-shadow: 0 0px 5px rgb( 105 105 105 / 50%);
+}
+
+/*----------Type----------*/
 h1 {
   color: #353535;
+  font-family: 'Inter', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+h2 {
+  color: #353535;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+h6 {
+  color: #696969;
   font-family: 'Inter', sans-serif;
   font-weight: 600;
 }
 
-.btn-outline-primary {
+p {
+  color: #696969;
+  font-family: 'Inter', sans-serif;
+}
+
+#h2Footer {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+#pFooter {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+
+/*----------Buttons----------*/
+#primaryButton {
   color: #056fc6;
+  border-color: #f1f2f2;
+  font-family: 'Inter', sans-serif;
+}
+
+#primaryButton:hover {
+  color: #056fc6;
+  background-color: #f1f2f2;
   border-color: #056fc6;
   font-family: 'Inter', sans-serif;
 }
+
+#primaryButtonSpark {
+  color: #c33e09;
+  border-color: #f1f2f2;
+  font-family: 'Inter', sans-serif;
+}
+
+#primaryButtonSpark:hover {
+  color: #c33e09;
+  background-color: #f1f2f2;
+  border-color: #c33e09;
+  font-family: 'Inter', sans-serif;
+}
+
+#primaryButtonUber {
+  color: #235ae7;
+  border-color: #f1f2f2;
+  font-family: 'Inter', sans-serif;
+}
+
+#primaryButtonUber:hover {
+  color: #235ae7;
+  background-color: #f1f2f2;
+  border-color: #235ae7;
+  font-family: 'Inter', sans-serif;
+}
+
+#primaryButtonFooter {
+  color: #fff;
+  border-color: #353535;
+  font-family: 'Inter', sans-serif;
+}
+
+#primaryButtonFooter:hover {
+  color: #f1f2f2;
+  background-color: #353535;
+  border-color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+/*----------Spacers----------*/
+.spacerLg {
+  height: 20rem;
+}
+
+.spacerMd {
+  height: 10rem;
+}
+
+.spacerSm {
+  height: 5rem;
+}
+
+.spacerXs {
+  height: 2rem;
+}
+
+
+
+
