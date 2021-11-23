@@ -17,6 +17,11 @@ body {
   background: #353535;
 }
 
+#headerContainer {
+  width: 100%;
+  background: #f1f2f2;
+}
+
 /*----------Nav----------*/
 #overrideNav {
   color: #353535;
@@ -74,17 +79,20 @@ p {
 }
 
 #primaryButton:hover {
-  transition: all ease-in 1s;
   color: #056fc6;
   background-color: #f1f2f2;
   border-color: #056fc6;
   font-family: 'Inter', sans-serif;
+  transition: all ease-in 1s;
+
 }
 
 #primaryButtonSpark {
   color: #c33e09;
   border-color: #f1f2f2;
   font-family: 'Inter', sans-serif;
+  transition: all ease-out .5s;
+
 }
 
 #primaryButtonSpark:hover {
@@ -92,12 +100,16 @@ p {
   background-color: #f1f2f2;
   border-color: #c33e09;
   font-family: 'Inter', sans-serif;
+  transition: all ease-in 1s;
+
 }
 
 #primaryButtonUber {
   color: #235ae7;
   border-color: #f1f2f2;
   font-family: 'Inter', sans-serif;
+  transition: all ease-out .5s;
+
 }
 
 #primaryButtonUber:hover {
@@ -105,12 +117,16 @@ p {
   background-color: #f1f2f2;
   border-color: #235ae7;
   font-family: 'Inter', sans-serif;
+  transition: all ease-in 1s;
+
 }
 
 #primaryButtonFooter {
   color: #fff;
   border-color: #353535;
   font-family: 'Inter', sans-serif;
+  transition: all ease-out .5s;
+
 }
 
 #primaryButtonFooter:hover {
@@ -118,6 +134,8 @@ p {
   background-color: #353535;
   border-color: #fff;
   font-family: 'Inter', sans-serif;
+  transition: all ease-in 1s;
+
 }
 
 /*----------Spacers----------*/
