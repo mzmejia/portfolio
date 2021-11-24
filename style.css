@@ -12,14 +12,21 @@ body {
   background: #f1f2f2;
 }
 
-#footerContainer {
+#headerContainer {
+  width: 100%;
+  background: #f1f2f2;
+}
+
+/*----------Footer Containers----------*/
+
+#footerContainerHome {
   width: 100%;
   background: #353535;
 }
 
-#headerContainer {
+#footerContainerTemplate {
   width: 100%;
-  background: #f1f2f2;
+  background: #353535;
 }
 
 /*----------Nav----------*/
