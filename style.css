@@ -101,6 +101,13 @@ p {
   font-weight: 400;
 }
 
+.H2footerLink {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
 #pFooter {
   color: #fff;
   font-family: 'Inter', sans-serif;
@@ -165,6 +172,33 @@ p {
 
 }
 
+
+#primaryButtonUberDisabled {
+  color: #235ae7;
+  opacity: 75%;
+  border-color: #f1f2f2;
+  font-family: 'Inter', sans-serif;
+  transition: all ease-out .5s;
+
+}
+
+#primaryButtonUberDisabled:hover {
+  color: #235ae7;
+  opacity: 75%;
+  background-color: #f1f2f2;
+  border-color: #f1f2f2;
+  font-family: 'Inter', sans-serif;
+  transition: all ease-in 1s;
+
+}
+
+
+
+
+
+
+
+
 #primaryButtonFooter {
   color: #fff;
   border-color: #353535;
@@ -210,36 +244,7 @@ p {
 
 
 
-.link {
-  position: relative;
-  transition: color ease 0.3s;
-}
-
-.link:hover {
-  color: #fff;
-}
-
-.link:after {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  height: 5%;
-  left: 0;
-  bottom: 0;
-  background-color: green;
-  transition: all ease 0.3s;
-}
-
-.link:hover::after {
-  height: 100%;
-}
-
-
-
-
-
-
+/*----------Container animation----------*/
 
 #sparkContainer img {
   -webkit-transition: all 0.5s ease-in-out;
